@@ -21,6 +21,16 @@
   }
   </script>
   
+  <script>
+      window.addEventListener("keydown", escAlert, false);
+
+      function escAlert(key){
+        if (key.keyCode == "27"){
+          alert("Please don't leave us!")
+        }
+      }
+    </script>
+  
 </header>
 
 
